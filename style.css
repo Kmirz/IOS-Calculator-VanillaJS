@@ -21,25 +21,27 @@ h1 {
     width: 600px;
     align-self: center;
     margin: 0 auto;
+    
   }
 
   .button {
 
-    background-color: grey;
+    background-color: darkgrey;
     width: 25%;
     height: 100px;
     margin: 10px;
     text-align: center;
     font-size: 35px;
+    border-radius: 20px;
 
   }
 
   .button:hover {
-    background-color: blue;  
+    background-color: grey;  
   }
 
   .button.orange:hover {
-    background-color: green;  
+    background-color: darkgoldenrod;  
   }
 
   .button.flex50 {
